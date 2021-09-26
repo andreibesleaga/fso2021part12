@@ -1,0 +1,6 @@
+app:
+  image: todo-frontend
+  volumes:
+    - ./:/usr/src/app
+  ports:
+    - 3210:3000

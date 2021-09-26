@@ -1,0 +1,31 @@
+Script started on 2021-09-26 12:23:45+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="203" LINES="16"]
+]0;andrei@R8KSPAH: /mnt/c/Users/abn/fso2021part12/todo-app/todo-backend[01;32mandrei@R8KSPAH[00m:[01;34m/mnt/c/Users/abn/fso2021part12/todo-app/todo-backend[00m$ docker exec -it todo-backend_redis_1
+"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Run a command in a running container
+]0;andrei@R8KSPAH: /mnt/c/Users/abn/fso2021part12/todo-app/todo-backend[01;32mandrei@R8KSPAH[00m:[01;34m/mnt/c/Users/abn/fso2021part12/todo-app/todo-backend[00m$ docker exec -it todo-backend_redis_1 bash
+root@ff8cabee71a7:/data# [Kroot@ff8cabee71a7:/data# redis-cli
+127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[0;90;49m pattern[0m[20C[0K127.0.0.1:6379> KEYS[20C
+(error) ERR wrong number of arguments for 'keys' command
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS[0;90;49m pattern[0m[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[0;90;49m key[0m[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET v[0;90;49m [0m[21C[0K127.0.0.1:6379> GET vi[0;90;49m [0m[22C[0K127.0.0.1:6379> GET vis[0;90;49m [0m[23C[0K127.0.0.1:6379> GET visi[0;90;49m [0m[24C[0K127.0.0.1:6379> GET visit[0;90;49m [0m[25C[0K127.0.0.1:6379> GET visits[0;90;49m [0m[26C[0K127.0.0.1:6379> GET visits[26C
+(nil)
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[0;90;49m key[0m[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET s[0;90;49m [0m[21C[0K127.0.0.1:6379> GET st[0;90;49m [0m[22C[0K127.0.0.1:6379> GET sta[0;90;49m [0m[23C[0K127.0.0.1:6379> GET stat[0;90;49m [0m[24C[0K127.0.0.1:6379> GET stati[0;90;49m [0m[25C[0K127.0.0.1:6379> GET statis[0;90;49m [0m[26C[0K127.0.0.1:6379> GET statist[0;90;49m [0m[27C[0K127.0.0.1:6379> GET statisti[0;90;49m [0m[28C[0K127.0.0.1:6379> GET statistic[0;90;49m [0m[29C[0K127.0.0.1:6379> GET statistics[0;90;49m [0m[30C[0K127.0.0.1:6379> GET statistics[30C
+(nil)
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[0;90;49m key[0m[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET n[0;90;49m [0m[21C[0K127.0.0.1:6379> GET nr[0;90;49m [0m[22C[0K127.0.0.1:6379> GET nrT[0;90;49m [0m[23C[0K127.0.0.1:6379> GET nrTo[0;90;49m [0m[24C[0K127.0.0.1:6379> GET nrTod[0;90;49m [0m[25C[0K127.0.0.1:6379> GET nrTodo[0;90;49m [0m[26C[0K127.0.0.1:6379> GET nrTodos[0;90;49m [0m[27C[0K127.0.0.1:6379> GET nrTodos[27C
+(nil)
+127.0.0.1:6379> [0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> SE[18C[0K127.0.0.1:6379> SET[0;90;49m key value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[19C[0K127.0.0.1:6379> SET [0;90;49mkey value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[20C[0K127.0.0.1:6379> SET n[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[21C[0K127.0.0.1:6379> SET nr[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[22C[0K127.0.0.1:6379> SET nrT[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[23C[0K127.0.0.1:6379> SET nrTo[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[24C[0K127.0.0.1:6379> SET nrTod[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[25C[0K127.0.0.1:6379> SET nrTodo[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[26C[0K127.0.0.1:6379> SET nrTodos[0;90;49m value [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[27C[0K127.0.0.1:6379> SET nrTodos [0;90;49mvalue [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[28C[0K127.0.0.1:6379> SET nrTodos 0[0;90;49m [EX seconds|PX milliseconds|EXAT timestamp|PXAT milliseconds-timestamp|KEEPTTL] [NX|XX] [GET][0m[29C[0K127.0.0.1:6379> SET nrTodos 0[29C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[0;90;49m key[0m[19C[0K127.0.0.1:6379> GETD[20C[0K127.0.0.1:6379> GETDE[21C[0K127.0.0.1:6379> GETDEL[0;90;49m key[0m[22C[0K127.0.0.1:6379> GETDEL [0;90;49mkey[0m[23C[0K127.0.0.1:6379> GETDEL n[0;90;49m [0m[24C[0K127.0.0.1:6379> GETDEL nr[0;90;49m [0m[25C[0K127.0.0.1:6379> GETDEL nrT[0;90;49m [0m[26C[0K127.0.0.1:6379> GETDEL nrTo[0;90;49m [0m[27C[0K127.0.0.1:6379> GETDEL nrTod[0;90;49m [0m[28C[0K127.0.0.1:6379> GETDEL nrTodo[0;90;49m [0m[29C[0K127.0.0.1:6379> GETDEL nrTodos[0;90;49m [0m[30C[0K127.0.0.1:6379> GETDEL nrTodos[30C
+"0"
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+root@ff8cabee71a7:/data# exit
+exit
+]0;andrei@R8KSPAH: /mnt/c/Users/abn/fso2021part12/todo-app/todo-backend[01;32mandrei@R8KSPAH[00m:[01;34m/mnt/c/Users/abn/fso2021part12/todo-app/todo-backend[00m$ exit
+exit
+
+Script done on 2021-09-26 12:27:54+03:00 [COMMAND_EXIT_CODE="0"]

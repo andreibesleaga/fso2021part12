@@ -1,0 +1,21 @@
+version: '3.8'            # Version 3.8 is quite new and should work
+
+services:
+  app:                    # The name of the service, can be anything
+    image: phonebook-server # Declares which image to use
+    build: ./build        # Declares where to build if image is not found
+    ports:                # Declares the ports to publish
+      - 3000:3000
+
+  app:
+    image: phonebook-frontend
+    build:
+      context: . # The context will pick this directory as the "build context"
+      dockerfile: phonebook/Dockerfile # This will simply tell which dockerfile to read
+    volumes:
+      - ./:/usr/src/app # The path can be relative, so ./ is enough to say "the same location as the docker-compose.yml"
+    ports:
+      - 3210:3000
+    container_name: phonebook-frontend
+  debug-helper:
+    image: busybox

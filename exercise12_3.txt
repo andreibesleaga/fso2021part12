@@ -1,0 +1,17 @@
+Script started on 2021-09-24 18:14:41+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="205" LINES="31"]
+]0;andrei@R8KSPAH: /mnt/c/Users/abn/fso2021part12[01;32mandrei@R8KSPAH[00m:[01;34m/mnt/c/Users/abn/fso2021part12[00m$ exit[Kdocker run -it ubuntu bash
+]0;root@38db651b2e2d: /root@38db651b2e2d:/# [K]0;root@38db651b2e2d: /root@38db651b2e2d:/# mkdir /usr/src/app
+]0;root@38db651b2e2d: /root@38db651b2e2d:/# touch  /usr/src/app/index.js
+]0;root@38db651b2e2d: /root@38db651b2e2d:/# [Knano  /usr/src/app/index.js
+bash: nano: command not found
+]0;root@38db651b2e2d: /root@38db651b2e2d:/# [Kcat console.log('Hello World') > /usr/src/app/index.js[1P[1P[1P[1@e[1@c[1@h[1@o console.log('Hello World') > /usr/src/app/index.js
+bash: syntax error near unexpected token `('
+]0;root@38db651b2e2d: /root@38db651b2e2d:/# [Kecho console.log('Hello World') > /usr/src/app/index.js[1@"[1@"console.log('Hello World')" > /usr/src/app/index.js
+]0;root@38db651b2e2d: /root@38db651b2e2d:/# [Kcat /usr/src/app/index.js
+console.log('Hello World')
+]0;root@38db651b2e2d: /root@38db651b2e2d:/# exit
+exit
+]0;andrei@R8KSPAH: /mnt/c/Users/abn/fso2021part12[01;32mandrei@R8KSPAH[00m:[01;34m/mnt/c/Users/abn/fso2021part12[00m$ exit
+exit
+
+Script done on 2021-09-24 18:15:59+03:00 [COMMAND_EXIT_CODE="0"]
